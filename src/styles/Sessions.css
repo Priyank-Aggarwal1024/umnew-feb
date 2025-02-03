@@ -1,0 +1,107 @@
+.umnew-sessions {
+    width: 100%;
+    padding: 85px 155px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+  }
+  .umnew-sessions-left,
+  .umnew-sessions-right {
+    width: 100%;
+  }
+  .umnew-sessions-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .umnew-sessions-left-top {
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .umnew-sessions-left-top-text {
+    background: linear-gradient(
+      0deg,
+      var(--color-content-common-white, #fff) 0%,
+      var(--color-content-neutral-light, #ffeec5) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .umnew-gslb-ul-li {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 182%; /* 43.68px */
+    opacity: 0.8;
+  }
+  .umnew-gslb-ul{
+      padding-left: 36px;
+  }
+  .umnew-sessions-right img{
+      max-width: 100%;
+  }
+  .umnew-s-lest-small{
+      display: none;
+  }
+  
+  @media(width<1280px){
+  .umnew-sessions{
+      padding: 50px 96px;
+  }
+  }
+  @media(width<1024px){
+  .umnew-sessions-left-top{
+      font-size: 36px;
+  }
+  .umnew-gslb-ul-li{
+      font-size: 20px;
+      line-height: 1.4;
+  }
+  .umnew-gslb-ul{
+      padding-left: 24px;
+  }
+  .umnew-sessions{
+      gap: 36px;
+  }
+  .umnew-sessions-right{
+      display: flex;
+      align-items: center;
+  }
+  }
+  @media(width<768px){
+      .umnew-s-large{
+          display: none;
+  
+      }
+      .umnew-s-lest-small{
+          display: block;
+      }
+      .umnew-sessions-left{
+          gap: 20px;
+      }
+      .umnew-s-lest-small img{
+          width: 100%;
+      }
+      .umnew-sessions{
+          padding: 35px 20px;
+      }
+  }
+  @media(width<580px){
+      .umnew-sessions-left-top{
+          font-size: 28px;
+      }
+      .umnew-gslb-ul-li{
+          font-size: 16px;
+          margin-top: 9px;
+      }
+      .umnew-gslb-ul{
+          padding-left: 20px;
+      }
+  
+  }

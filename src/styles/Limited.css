@@ -227,3 +227,23 @@
         max-width: unset;
     }
 }
+@media(width<400px){
+    .umnew-lblc-head{
+        font-size: 17px;
+    }
+    .umnew-lblc-no{
+        font-size: 30px;
+    }
+    .umnew-lb-left-card-circle{
+        width: 66px;
+        height: 66px;
+        padding: 15px;
+    }
+    .umnew-limited-heading{
+        font-size: 24px;
+    }
+    .umnew-limited-smallimage{
+        width: 85px;
+        height: 68px;
+    }
+}

@@ -1,0 +1,53 @@
+.umnew-hackathon {
+  width: 100%;
+  background: #161616;
+  padding: 32px 107px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.umnew-hackathon-left,
+.umnew-hackathon-right {
+  width: 100%;
+}
+.umnew-hackathon-left-content{
+    font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.27; /* 127.273% */
+
+}
+.umnew-hlc-text{
+    background: var(--linear-2-paints, linear-gradient(180deg, var(--color-content-common-white, #FFF) 0%, #FFEEC5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.umnew-hackathon-right img{
+    max-width: 100%;
+}
+@media(width<1024px){
+    .umnew-hackathon{
+        gap: 20px;
+        padding: 32px 64px;
+    }
+    .umnew-hackathon-left-content{
+        font-size: 36px;
+        line-height: 1.35;
+    }
+}
+@media (width<768px) {
+    .umnew-hackathon-left-content{
+        font-size: 28px;
+    }
+    .umnew-hackathon{
+        padding: 28px 21px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .umnew-hackathon-right{
+        width: fit-content;
+    }
+}
