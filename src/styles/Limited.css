@@ -1,0 +1,229 @@
+.umnew-limited {
+    border-radius: 29px;
+    border: 2px solid #74C928;
+    background: linear-gradient(286deg, #1B1D1B 0%, #507323 98.49%);
+    box-shadow: 0px 4px 54.3px 0px rgba(116, 201, 40, 0.21);
+    padding: 55px 96px 0px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.umnew-limited-heading {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123%;
+    /* 129.545% */
+    background: linear-gradient(180deg, var(--color-content-common-white, #FFF) 0%, var(--color-content-neutral-light, #ABACAB) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 602px;
+}
+
+.umnew-limited-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.umnew-limited-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.umnew-lb-left {
+    max-width: 423.547px;
+    width: 100%;
+    padding-top: 61px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.umnew-lb-right {
+    margin-bottom: -3px;
+    position: relative;
+}
+
+.umnew-lb-left-card {
+    padding: 18px 15px 17px 60px;
+    height: 109.263px;
+    border-radius: 10.855px;
+    background: #292929;
+    width: 100%;
+    position: relative;
+}
+
+.text-yellow {
+    background: var(--Linear, linear-gradient(180deg, #EDD86B 0%, #EBCE31 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-linethrough {
+    text-decoration: line-through;
+}
+
+.umnew-lblc-head {
+    color: #F1EAE4;
+    font-family: Poppins;
+    font-size: 24.553px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36.83px;
+}
+
+.text-white {
+    color: white;
+}
+
+.umnew-lblc-no {
+    color: #EBCE31;
+    font-family: Poppins;
+    font-size: 49.107px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%;
+    /* 58.192px */
+    opacity: 0.2;
+    position: absolute;
+    top: -2px;
+    right: 15px;
+}
+
+.umnew-lblc-head1 {
+    max-width: 225.892px;
+}
+
+.umnew-lblc-head2 {
+    max-width: 283.593px;
+}
+
+.umnew-lblc-head4 {
+    width: 331px;
+}
+
+.umnew-lb-left-card-circle {
+    position: absolute;
+    display: flex;
+    width: 94.079px;
+    height: 94.079px;
+    padding: 23.715px 24.076px 23.712px 23.352px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 94.983px;
+    background: linear-gradient(180deg, #1A3B0D 0%, #356733 100%);
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.umnew-lb-left-card-circle img {
+    width: 100%;
+    height: 100%;
+}
+
+.umnew-limited-largelimited-image {
+    position: absolute;
+    top: 52%;
+    right: -20%;
+}
+
+.umnew-limited-smallimage {
+    display: none;
+}
+
+.umnew-limited-bottom {
+    gap: 21px;
+}
+
+@media(width<1024px) {
+    .umnew-lb-right {
+        display: none;
+    }
+
+    .umnew-limited {
+        padding: 31px 16px 31px 16px;
+    }
+
+    .umnew-limited-heading {
+        font-size: 36px;
+        width: 455px;
+    }
+
+    .umnew-limited-smallimage {
+        width: 104.622px;
+        height: 90px;
+        flex-shrink: 0;
+        display: block;
+
+    }
+}
+
+@media (width<680px) {
+    .umnew-lb-left {
+        padding-left: 37px;
+        padding-top: 25px;
+    }
+
+    .umnew-lb-left-card {
+        padding: 14px 30px 15px 49px;
+        height: fit-content;
+    }
+
+    .umnew-lblc-head {
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .umnew-lb-left-card-circle {
+        display: flex;
+        width: 76.632px;
+        height: 76.632px;
+        padding: 21.316px 21.211px 20.895px 21px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 77.369px;
+        background: linear-gradient(180deg, #1A3B0D 0%, #356733 100%);
+    }
+
+    .umnew-lblc-no {
+        color: #FFF8D4;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 118.5%;
+        /* 42.66px */
+    }
+
+    .umnew-limited-heading {
+        font-size: 30px;
+        max-width: unset;
+        width: 100%;
+    }
+
+    .umnew-lblc-head4 {
+        max-width: unset;
+        width: 100%;
+    }
+
+    .umnew-lblc-head2 {
+        max-width: unset;
+    }
+
+    .umnew-lblc-head1 {
+        max-width: unset;
+    }
+}
