@@ -9,7 +9,7 @@ function Footer() {
     <>
       <div className="tutedude-footer">
         <div className="tutedude-footer-section1">
-          <img src={logo} alt="Tutedude Logo" />
+          <img src={logo} alt="Tutedude Logo" className="tutedude-footer-logo" />
           <div className="tutedude-footer-mainlink-section">
             <a
               href="https://tutedude.com/category/"

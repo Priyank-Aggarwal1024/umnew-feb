@@ -142,6 +142,11 @@
   .tutedude-footer-link-head {
     font-size: 15px;
   }
+  .tutedude-footer-logo {
+    width: 110.04px;
+    height: 36.12px;
+    flex-shrink: 0;
+  }
   .tutedude-footer-link {
     font-size: 14px;
   }
