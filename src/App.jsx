@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 import GroupStudy from './components/GroupStudy'
 import Hackathon from './components/Hackathon'
 import Limited from './components/Limited'
@@ -15,6 +16,7 @@ function App() {
         <GroupStudy/>
         <Sessions/>
         <Hackathon/>
+        <Footer/>
       </div>
     </>
   )
