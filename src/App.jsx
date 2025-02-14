@@ -5,6 +5,7 @@ import Hackathon from './components/Hackathon'
 import Limited from './components/Limited'
 import Sessions from './components/Sessions'
 import Topbar from './components/Topbar'
+import Review from './pages/Review'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Sessions/>
         <Hackathon/>
         <Footer/>
+        <Review/>
       </div>
     </>
   )

@@ -1,0 +1,104 @@
+.tutedude-navbar {
+  width: 100%;
+  height: 80px;
+  flex-shrink: 0;
+  background: #fff;
+  padding: 8px 120px 9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tutedude-navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.tutedude-navbar-signupbtn {
+  display: flex;
+  padding: 14px 41px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7.998px;
+  background: var(--group-800080, rgba(128, 0, 128, 0.87));
+  box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%; /* 19.76px */
+  cursor: pointer;
+}
+.tutedude-navbar-loginbtn {
+  cursor: pointer;
+  display: flex;
+  padding: 14px 39px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7.998px;
+  border: 1px solid var(--Group-Linear, #800080);
+  box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%; /* 19.76px */
+  background: var(
+    --Group-Linear,
+    linear-gradient(90deg, #800080 3.92%, #b466c1 52.78%, #800080 92.42%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (width<1024px) {
+  .tutedude-navbar {
+    padding: 8px 48px 9px;
+  }
+}
+@media (width<768px) {
+  .tutedude-navbar {
+    display: inline-flex;
+    padding: 5px 32px 6.05px 32px;
+    align-items: center;
+    height: unset;
+  }
+  .tutedude-navbar-left img {
+    width: 104px;
+    height: 40.95px;
+  }
+  .tutedude-navbar-loginbtn {
+    display: flex;
+    padding: 9.1px 25.35px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5px;
+    border-radius: 5.199px;
+    font-size: 10.4px;
+  }
+  .tutedude-navbar-signupbtn {
+    display: flex;
+    padding: 9.1px 26.65px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5px;
+    font-size: 10.4px;
+  }
+}
+@media (width<580px) {
+  .tutedude-navbar {
+    padding: 5px 16.85px 6.05px 11px;
+  }
+  .tutedude-navbar-right {
+    gap: 7px;
+  }
+  .tutedude-navbar-left {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+}

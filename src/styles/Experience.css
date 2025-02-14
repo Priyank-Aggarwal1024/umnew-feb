@@ -1,0 +1,164 @@
+.tutedude-experience {
+  padding: 96px 40px;
+  width: 100%;
+}
+
+.tutedude-experience-inner {
+  border-radius: 19.114px;
+  background: #350b35;
+  padding: 80px 16px 64px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.tutedude-experience-main {
+  display: flex;
+  max-width: 660px;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+  width: 100%;
+}
+.tutedude-experience-stars {
+  display: flex;
+  align-items: center;
+  gap: 6.054px;
+}
+.tutedude-experience-heading {
+  color: #e8e8e8;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 145.941%;
+  text-align: center;
+}
+.tutedude-experience-submit {
+  display: flex;
+  width: 275px;
+  padding: 14px 41px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7.998px;
+  background: #fff;
+  box-shadow: 0px 4.279px 9.521px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.5%; /* 22.23px */
+  text-decoration: none;
+}
+.tutedude-experience-image {
+  position: absolute;
+}
+.tutedude-experience-image-1 {
+  top: 48px;
+  left: 45px;
+}
+.tutedude-experience-image-2 {
+  top: 150px;
+  left: 216px;
+}
+.tutedude-experience-image-3 {
+  top: 4px;
+  left: 236px;
+}
+.tutedude-experience-image-4 {
+  top: 4px;
+  right: 257px;
+}
+.tutedude-experience-image-5 {
+  top: 108px;
+  right: 162px;
+}
+.tutedude-experience-image-6 {
+  top: 1px;
+  right: 42px;
+}
+@media (width<1280px) {
+  .tutedude-experience-image-1 {
+    top: 48px;
+    left: 25px;
+  }
+  .tutedude-experience-image-2 {
+    top: 150px;
+    left: 136px;
+  }
+  .tutedude-experience-image-3 {
+    top: 4px;
+    left: 156px;
+  }
+  .tutedude-experience-image-4 {
+    top: 4px;
+    right: 177px;
+  }
+  .tutedude-experience-image-5 {
+    top: 108px;
+    right: 112px;
+  }
+  .tutedude-experience-image-6 {
+    top: 1px;
+    right: 22px;
+  }
+}
+@media (width<1024px) {
+  .tutedude-experience-heading {
+    font-size: 36px;
+    max-width: 500px;
+  }
+  .tutedude-experience-image {
+    display: none;
+  }
+}
+@media (width<768px) {
+  .tutedude-experience {
+    padding: 64px 30px;
+  }
+  .tutedude-experience-heading {
+    font-size: 30px;
+  }
+  .tutedude-experience-main {
+    gap: 16px;
+  }
+  .tutedude-experience-inner {
+    padding: 64px 19px;
+  }
+  .tutedude-experience-heading {
+    max-width: 360px;
+  }
+  .tutedude-experience-stars > img {
+    width: 37.103px;
+    height: 37.103px;
+  }
+  .tutedude-experience-submit {
+    display: flex;
+    width: 162px;
+    height: 40px;
+    padding: 8.239px 24.13px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.885px;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.5%; /* 17.29px */
+  }
+}
+@media (width<580px) {
+  .tutedude-experience-heading {
+    font-size: 25px;
+  }
+  .tutedude-experience {
+    padding: 38px 16px;
+  }
+}
