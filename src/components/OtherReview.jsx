@@ -1,73 +1,58 @@
-import { useState } from "react";
-import lreview1 from "../assets/review/lreview1.svg";
-
-import lreview2 from "../assets/review/lreview2.svg";
-import lreview3 from "../assets/review/lreview3.svg";
-import lreview4 from "../assets/review/lreview4.svg";
-import lreview5 from "../assets/review/lreview5.svg";
-import lreview6 from "../assets/review/lreview6.svg";
-import lreview7 from "../assets/review/lreview7.svg";
-import lreview8 from "../assets/review/lreview8.svg";
-import lreview9 from "../assets/review/lreview9.svg";
-function LinkedinReview() {
+import { useEffect, useState } from "react";
+import oreview1 from "../assets/review/oreview1.svg";
+import oreview2 from "../assets/review/oreview2.svg";
+import oreview3 from "../assets/review/oreview3.svg";
+import oreview4 from "../assets/review/oreview4.svg";
+import oreview5 from "../assets/review/oreview5.svg";
+function OtherReview() {
   const [hide, setHide] = useState(true);
+  const [width, setWidth] = useState(window.innerWidth);
+  window.addEventListener("resize", () => {
+    setWidth(window.innerWidth);
+    return window.removeEventListener("resize", () => {});
+  });
+  useEffect(() => {
+    if (width < 768) {
+      setHide(false);
+    }
+  }, [width]);
   return (
-    <div className="tutedude-ptt-bottom-images-outer">
-      <div
-        className="tutedude-ptt-bottom-images"
-        style={{
-          height: hide ? "900px" : "100%",
-          overflowY: hide ? "hidden" : "auto",
-        }}
-      >
+    <div
+      className="tutedude-ptt-bottom-images-outer"
+      style={{
+        height: hide ? "900px" : "100%",
+        overflowY: hide ? "hidden" : "auto",
+      }}
+    >
+      <div className="tutedude-ptt-bottom-images">
         <div className="tutedude-ptt-bottom-images-column">
           <img
-            src={lreview1}
+            src={oreview1}
             alt="Linkedin Review 1"
             className="tutedude-pttbi-image"
           />
           <img
-            src={lreview2}
+            src={oreview2}
             alt="Linkedin Review 2"
-            className="tutedude-pttbi-image"
-          />
-          <img
-            src={lreview7}
-            alt="Linkedin Review 7"
             className="tutedude-pttbi-image"
           />
         </div>
         <div className="tutedude-ptt-bottom-images-column">
           <img
-            src={lreview3}
+            src={oreview3}
             alt="Linkedin Review 3"
             className="tutedude-pttbi-image"
           />
           <img
-            src={lreview4}
+            src={oreview4}
             alt="Linkedin Review 4"
-            className="tutedude-pttbi-image"
-          />
-          <img
-            src={lreview8}
-            alt="Linkedin Review 8"
             className="tutedude-pttbi-image"
           />
         </div>
         <div className="tutedude-ptt-bottom-images-column">
           <img
-            src={lreview5}
+            src={oreview5}
             alt="Linkedin Review 5"
-            className="tutedude-pttbi-image"
-          />
-          <img
-            src={lreview6}
-            alt="Linkedin Review 6"
-            className="tutedude-pttbi-image"
-          />
-          <img
-            src={lreview9}
-            alt="Linkedin Review 9"
             className="tutedude-pttbi-image"
           />
         </div>
@@ -96,4 +81,4 @@ function LinkedinReview() {
   );
 }
 
-export default LinkedinReview;
+export default OtherReview;
