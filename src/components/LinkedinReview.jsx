@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import lreview1 from "../assets/review/lreview1.svg";
 
 import lreview2 from "../assets/review/lreview2.svg";
@@ -11,12 +11,22 @@ import lreview8 from "../assets/review/lreview8.svg";
 import lreview9 from "../assets/review/lreview9.svg";
 function LinkedinReview() {
   const [hide, setHide] = useState(true);
+  const [width, setWidth] = useState(window.innerWidth);
+  window.addEventListener("resize", () => {
+    setWidth(window.innerWidth);
+    return window.removeEventListener("resize", () => {});
+  });
+  useEffect(() => {
+    if (width < 768) {
+      setHide(false);
+    }
+  }, [width]);
   return (
     <div className="tutedude-ptt-bottom-images-outer">
       <div
         className="tutedude-ptt-bottom-images"
         style={{
-          height: hide ? "900px" : "100%",
+          height: hide ? "900px" : "fit-content",
           overflowY: hide ? "hidden" : "auto",
         }}
       >

@@ -87,7 +87,7 @@ function PlatformTestimonial() {
                 },
               }}
             >
-              <SwiperSlide style={{ height: "100%" }}>
+              <SwiperSlide>
                 <LinkedinReview />
               </SwiperSlide>
               <SwiperSlide>
